@@ -1,0 +1,8 @@
+projects:
+  client:
+    schema: ./src/app/api/graphql/schema.graphql
+#    extensions:
+#      endpoints:
+#        Remote GraphQL Endpoint:
+#          url: http://localhost:3000/api/graphql
+#          introspect: true
