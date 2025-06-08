@@ -23,17 +23,10 @@
         "previewTargetName": "preview"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
     {
       "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      },
+      "options": { "targetName": "test" },
       "exclude": ["apps/my-workspace-e2e/**/*"]
     },
     {
@@ -45,28 +38,13 @@
         "serveStaticTargetName": "serve-static"
       }
     },
-    {
-      "plugin": "@nx/playwright/plugin",
-      "options": {
-        "targetName": "e2e"
-      }
-    }
+    { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } }
   ],
-  "nxCloudAccessToken": "M2M0MmZjNmQtNzQwMy00NzU5LTk2OTktMjVjZjBlNGNiMWFlfHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "MTg1YmQwNzktNzdiMy00YzNiLWFlZjctNWI0MmUyZWE3NzAwfHJlYWQtd3JpdGU=",
   "generators": {
-    "@nx/next": {
-      "application": {
-        "style": "tailwind",
-        "linter": "eslint"
-      }
-    },
-    "@nx/react": {
-      "library": {}
-    }
+    "@nx/next": { "application": { "style": "tailwind", "linter": "eslint" } },
+    "@nx/react": { "library": {} }
   },
   "defaultBase": "main",
-  "workspaceLayout": {
-    "appsDir": "apps",
-    "libsDir": "shared"
-  }
+  "workspaceLayout": { "appsDir": "apps", "libsDir": "shared" }
 }
