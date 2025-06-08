@@ -1,0 +1,46 @@
+{
+  "node": {
+    "61738142fe6524f258cc81451c9895e765e75502": {
+      "workers": {
+        "app/[lang]/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[lang]/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "727c2110f0f24d82edf7a3b8028cfd2a180ba5d0": {
+      "workers": {
+        "app/[lang]/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[lang]/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "9bd5b78618b3d53f9f50f33006ecccf1262ed726": {
+      "workers": {
+        "app/[lang]/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[lang]/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    },
+    "f4222dddf84a107a8a8cf9d03aca6b78de5a70b9": {
+      "workers": {
+        "app/[lang]/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fsunriv%2Fprojects-aivesoft%2Fmy-codebase-portfolio%2Fapps%2Ffrontend%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22createThemeStateCookie%22%2C%22removeAccessToken%22%2C%22createAccessToken%22%2C%22createLocaleCookie%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/[lang]/page": "action-browser",
+        "app/_not-found/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "GqLk+48ZOzCFmRE6SO3nOz0e5wWBuY32vhuzdrL9ZBw="
+}

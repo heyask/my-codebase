@@ -1,9 +1,0 @@
-{
-  "name": "sunriv-dev-client",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/sunriv-dev-client",
-  "projectType": "application",
-  "tags": [],
-  "// targets": "to see all targets run: nx show project sunriv-dev-client --web",
-  "targets": {}
-}
