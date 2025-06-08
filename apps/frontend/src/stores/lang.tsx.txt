@@ -1,0 +1,32 @@
+import { atom } from 'recoil';
+import { Lang } from '@/types/interfaces';
+import { createLocaleCookie } from '@/app/actions';
+
+export type LangState = {
+  lang: string;
+  selector: string;
+};
+export const initialLangState: LangState = {
+  lang: Lang.system,
+  selector: Lang.en,
+};
+export const langState = atom<LangState>({
+  key: 'langState',
+  default: initialLangState,
+  effects: [
+    ({ setSelf, onSet }: any) => {
+      onSet((newValue: LangState, oldValue: LangState, isReset: boolean) => {
+        let selector = newValue.lang;
+        if (typeof window !== 'undefined' && newValue.lang === Lang.system) {
+          selector = Lang.en;
+        }
+        createLocaleCookie({
+          ...newValue,
+          selector: selector,
+        });
+      });
+
+      return () => {};
+    },
+  ],
+});
