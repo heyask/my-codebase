@@ -46,5 +46,13 @@
     "@nx/react": { "library": {} }
   },
   "defaultBase": "main",
-  "workspaceLayout": { "appsDir": "apps", "libsDir": "shared" }
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "shared"
+  },
+  "targetDefaults": {
+    "e2e-ci--**/**": {
+      "dependsOn": ["^build"]
+    }
+  }
 }
