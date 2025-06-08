@@ -1,7 +1,7 @@
 import React, { forwardRef, useMemo } from 'react';
-import { cn } from '@my-workspace/lib/utils';
-import { Skeleton } from '@my-workspace/ui/skeleton';
-import { Separator } from '@my-workspace/ui/separator';
+import { cn } from '@my-codebase/lib/utils';
+import { Skeleton } from '@my-codebase/ui/skeleton';
+import { Separator } from '@my-codebase/ui/separator';
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {
   type: 'post' | 'project' | 'comment';

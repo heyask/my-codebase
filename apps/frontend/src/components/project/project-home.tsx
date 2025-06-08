@@ -4,7 +4,7 @@ import * as React from 'react';
 import { GET_PROJECTS } from '../../graphql/project';
 import ProjectItemList from './project-item-list';
 import dayjs from 'dayjs';
-import { Switch } from '@my-workspace/ui/switch';
+import { Switch } from '@my-codebase/ui/switch';
 
 export default function ProjectHome({ dict }: PageComponent) {
   const [listView, setListView] = React.useState(false);

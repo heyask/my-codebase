@@ -7,7 +7,7 @@ import dayjs from 'dayjs';
 import { GET_POST } from '../../graphql/post';
 import 'highlight.js/styles/github-dark-dimmed.min.css';
 import Comment from './comment';
-import { Badge } from '@my-workspace/ui/badge';
+import { Badge } from '@my-codebase/ui/badge';
 import Link from 'next/link';
 
 export default function PostDetails({ dict }: PageComponent) {

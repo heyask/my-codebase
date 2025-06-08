@@ -3,13 +3,13 @@
 import * as React from 'react';
 import { Suspense, useMemo, useRef } from 'react';
 import dayjs from 'dayjs';
-import { urlSafeString } from '@my-workspace/lib/utils';
+import { urlSafeString } from '@my-codebase/lib/utils';
 import { useSuspenseQuery } from '@apollo/experimental-nextjs-app-support/ssr';
 import { GET_PROJECTS } from '../../graphql/project';
 import { groupBy } from 'lodash-es';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 import { useRouter } from 'next/navigation';
-import { Badge } from '@my-workspace/ui/badge';
+import { Badge } from '@my-codebase/ui/badge';
 import Link from 'next/link';
 import {
   Card,
@@ -18,8 +18,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@my-workspace/ui/card';
-import { Skeletons } from '@my-workspace/ui/skeleton';
+} from '@my-codebase/ui/card';
+import { Skeletons } from '@my-codebase/ui/skeleton';
 
 export type Props = React.HTMLAttributes<HTMLDivElement> & {
   queryName: string;

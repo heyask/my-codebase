@@ -1,10 +1,10 @@
 'use client';
 
 import React, { Suspense } from 'react';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 import Header from '../../components/layout/header';
 import Footer from '../../components/layout/footer';
-import { Loader } from '@my-workspace/ui/loader';
+import { Loader } from '@my-codebase/ui/loader';
 
 export default function MainLayout({
   className,

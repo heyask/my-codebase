@@ -3,12 +3,12 @@
 import * as React from 'react';
 import { Suspense, useRef } from 'react';
 import dayjs from 'dayjs';
-import { urlSafeString } from '@my-workspace/lib/utils';
+import { urlSafeString } from '@my-codebase/lib/utils';
 import { useSuspenseQuery } from '@apollo/experimental-nextjs-app-support/ssr';
-import { Skeletons } from '@my-workspace/ui/skeleton';
+import { Skeletons } from '@my-codebase/ui/skeleton';
 import Link from 'next/link';
-import { Badge } from '@my-workspace/ui/badge';
-import { Icon } from '@my-workspace/ui/icon';
+import { Badge } from '@my-codebase/ui/badge';
+import { Icon } from '@my-codebase/ui/icon';
 
 export type Props = React.HTMLAttributes<HTMLDivElement> & {
   queryName: string;

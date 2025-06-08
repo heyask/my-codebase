@@ -1,8 +1,8 @@
 'use client';
 
 import React, { Suspense } from 'react';
-import { cn } from '@my-workspace/lib/utils';
-import { Loader } from '@my-workspace/ui/loader';
+import { cn } from '@my-codebase/lib/utils';
+import { Loader } from '@my-codebase/ui/loader';
 
 type Props = React.HTMLAttributes<HTMLDivElement> & {
   sidebarContent?: React.ReactNode;

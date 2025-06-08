@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { CellContext } from '@tanstack/react-table';
 import { Input } from '../input';
 import { omit } from 'lodash';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 
 export function InputCell<TData, TValue>({
   getValue,

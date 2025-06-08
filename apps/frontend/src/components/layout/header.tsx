@@ -2,22 +2,22 @@
 
 import React from 'react';
 import { useRecoilState } from 'recoil';
-import { themeState } from '@my-workspace/lib/stores/theme';
+import { themeState } from '@my-codebase/lib/stores/theme';
 import { upperCase } from 'lodash-es';
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { createLocaleCookie } from '../../app/actions';
 import Link from 'next/link';
-import { Button } from '@my-workspace/ui/button';
+import { Button } from '@my-codebase/ui/button';
 import Image from 'next/image';
-import { Icon } from '@my-workspace/ui/icon';
+import { Icon } from '@my-codebase/ui/icon';
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from '@my-workspace/ui/navigation-menu';
-import { Lang, Theme } from '@my-workspace/lib/types';
+} from '@my-codebase/ui/navigation-menu';
+import { Lang, Theme } from '@my-codebase/lib/types';
 
 export default function Header() {
   const params = useParams();

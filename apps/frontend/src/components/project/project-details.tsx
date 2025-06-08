@@ -6,9 +6,9 @@ import { useParams } from 'next/navigation';
 import 'highlight.js/styles/github-dark-dimmed.min.css';
 import { GET_PROJECT } from '../../graphql/project';
 import dayjs from 'dayjs';
-import { Button } from '@my-workspace/ui/button';
+import { Button } from '@my-codebase/ui/button';
 import Link from 'next/link';
-import { Badge } from '@my-workspace/ui/badge';
+import { Badge } from '@my-codebase/ui/badge';
 
 export default function ProjectDetails({ dict }: PageComponent) {
   const params = useParams();

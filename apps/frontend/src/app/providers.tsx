@@ -1,7 +1,7 @@
 'use client';
 
 import { ApolloWrapper } from '../utils/apollo-wrapper';
-import BaseLayout from '@my-workspace/ui/layout/base-layout';
+import BaseLayout from '@my-codebase/ui/layout/base-layout';
 import { Providers2 } from './providers2';
 import BaseFunctionality from '../components/layout/base-functionality';
 

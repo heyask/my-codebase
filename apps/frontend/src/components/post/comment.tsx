@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { useRecoilValue } from 'recoil';
-import { themeState } from '@my-workspace/lib/stores/theme';
+import { themeState } from '@my-codebase/lib/stores/theme';
 import { Post } from '../../types/graphql';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 import { useParams, usePathname } from 'next/navigation';
-import { Icon } from '@my-workspace/ui/icon';
+import { Icon } from '@my-codebase/ui/icon';
 
 type Props = {
   post: Post;

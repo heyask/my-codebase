@@ -2,7 +2,7 @@ import React from 'react';
 import { CellContext } from '@tanstack/react-table';
 import { ImageWithModal } from '../image-with-modal';
 import { NavigationMenuLink } from '../navigation-menu';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 
 export function ImageCell<TData, TValue>({
   getValue,

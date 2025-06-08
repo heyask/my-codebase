@@ -40,7 +40,7 @@
     },
     { "plugin": "@nx/playwright/plugin", "options": { "targetName": "e2e" } }
   ],
-  "nxCloudAccessToken": "***REMOVED***fHJlYWQtd3JpdGU=",
+  "nxCloudAccessToken": "MTg1YmQwNzktNzdiMy00YzNiLWFlZjctNWI0MmUyZWE3NzAwfHJlYWQtd3JpdGU=",
   "generators": {
     "@nx/next": { "application": { "style": "tailwind", "linter": "eslint" } },
     "@nx/react": { "library": {} }
@@ -49,10 +49,5 @@
   "workspaceLayout": {
     "appsDir": "apps",
     "libsDir": "shared"
-  },
-  "targetDefaults": {
-    "e2e-ci--**/**": {
-      "dependsOn": ["^build"]
-    }
   }
 }

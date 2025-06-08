@@ -1,8 +1,8 @@
 'use server';
 
 import { cookies } from 'next/headers';
-import { ThemeState } from '@my-workspace/lib/stores/theme';
-import { Lang } from '@my-workspace/lib/types';
+import { ThemeState } from '@my-codebase/lib/stores/theme';
+import { Lang } from '@my-codebase/lib/types';
 
 export async function createAccessToken(accessToken: string) {
   cookies().set('accessToken', accessToken);

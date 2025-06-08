@@ -9,7 +9,7 @@ import { cookies, headers } from 'next/headers';
 import AppConstants from '../types/app-constants';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
-import '@my-workspace/ui/globals.css';
+import '@my-codebase/ui/globals.css';
 import './globals.css';
 
 // if (AppConfig.DEPLOY_ENV !== 'production') {

@@ -2,14 +2,14 @@
 
 import { RecoilRoot } from 'recoil';
 import { headers } from 'next/headers';
-import { ThemeState, themeState } from '@my-workspace/lib/stores/theme';
+import { ThemeState, themeState } from '@my-codebase/lib/stores/theme';
 // import { meState } from '@/stores/me';
 // import { useSuspenseQuery } from '@apollo/experimental-nextjs-app-support/ssr';
 import { createLocaleCookie, createThemeStateCookie } from './actions';
 // import { GET_ME } from '@/graphql/user';
 import { appState, initialAppState } from '../stores/app';
 import { usePathname } from 'next/navigation';
-import { Lang, Theme } from '@my-workspace/lib/types';
+import { Lang, Theme } from '@my-codebase/lib/types';
 
 export function Providers2({
   themeCookie,

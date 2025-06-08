@@ -15,10 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-workspace/lib/*": ["shared/lib/src/*"],
-      "@my-workspace/lib/server": ["shared/lib/src/server.ts"],
-      "@my-workspace/ui/*": ["shared/ui/src/*"],
-      "@my-workspace/ui/server": ["shared/ui/src/server.ts"]
+      "@my-codebase/lib/*": ["shared/lib/src/*"],
+      "@my-codebase/lib/server": ["shared/lib/src/server.ts"],
+      "@my-codebase/ui/*": ["shared/ui/src/*"],
+      "@my-codebase/ui/server": ["shared/ui/src/server.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

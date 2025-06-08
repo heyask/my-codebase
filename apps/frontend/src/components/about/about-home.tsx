@@ -5,11 +5,11 @@ import * as React from 'react';
 import { useParams, usePathname, useRouter } from 'next/navigation';
 import { AboutType } from '../../types/interfaces';
 import dayjs from 'dayjs';
-import { cn } from '@my-workspace/lib/utils';
+import { cn } from '@my-codebase/lib/utils';
 import { upperCase } from 'lodash-es';
 import { GET_ABOUT } from '../../graphql/about';
 import Link from 'next/link';
-import { Lang } from '@my-workspace/lib/types';
+import { Lang } from '@my-codebase/lib/types';
 
 export default function AboutHome({ dict }: PageComponent) {
   const [aboutType, setAboutType] = React.useState<AboutType>(AboutType.cv);
